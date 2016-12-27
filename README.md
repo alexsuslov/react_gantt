@@ -1,4 +1,6 @@
 # Simple React Gantt Diagram
+## Demo
+[react_gantt](https://alexsuslov.github.io/react_gantt/)
 ## Use
 ```
 <Gantt {...{

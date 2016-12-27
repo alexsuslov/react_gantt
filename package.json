@@ -1,0 +1,61 @@
+{
+  "name": "react_gantt",
+  "version": "1.0.0",
+  "description": "Simple React Gantt Diagram",
+  "main": "./react_gantt/index.js",
+  "scripts": {
+    "build": "babel src -d react_gantt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsuslov/react_gantt.git"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015",
+      "stage-1"
+    ],
+    "plugins": [
+      "transform-runtime",
+      "transform-decorators-legacy"
+    ]
+  },
+  "author": "Alex Suslov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexsuslov/react_gantt/issues"
+  },
+  "homepage": "https://github.com/alexsuslov/react_gantt#readme",
+  "dependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.26.1",
+    "moment": "^2.17.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-keydown": "^1.6.5",
+    "postcss": "^5.1.1",
+    "postcss-calc": "^5.3.0",
+    "postcss-color-function": "^2.0.1",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-custom-selectors": "^3.0.0",
+    "postcss-flexbugs-fixes": "^2.0.0",
+    "postcss-import": "^8.1.2",
+    "postcss-loader": "^0.9.1",
+    "postcss-media-minmax": "^2.1.2",
+    "postcss-nesting": "^2.3.1",
+    "postcss-selector-matches": "^2.0.1",
+    "postcss-selector-not": "^2.0.0",
+    "stylelint": "^7.0.3",
+    "stylelint-config-standard": "^11.0.0",
+    "url-loader": "^0.5.7",
+    "style-loader": "^0.13.1"
+  }
+}

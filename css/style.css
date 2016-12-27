@@ -1,0 +1,61 @@
+.gantt{
+  display: flex;
+  width: 100%;
+  box-shadow: 0 0 1px rgba(0,0,0,0.25) inset;
+}
+
+.column, .right{
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer{
+  display: flex;
+  flex-direction: row;
+  background-color: #F4F4F4;
+  width: 230px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.25) inset;
+}
+
+.row{
+  display: flex;
+  flex-direction:  row;
+  height: 24px;
+  background-color: #F4F4F4;
+  width: 230px;
+  text-shadow: none;
+  box-shadow: 0 0 1px rgba(0,0,0,0.25) inset;
+}
+
+.name{
+  display: flex ;
+  margin-left: 5px;
+  font-weight: 600;
+  width: 110px;
+/*  height: 24px;*/
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.desc{
+  display: flex;
+  margin-left: 5px;
+  width: 110px;
+  /*height: 24px;*/
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.right{
+  overflow: auto;
+}
+
+
+
+
+
+
+
+
